@@ -1,38 +1,24 @@
-<?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package Donovan
- */
+<!-- other content -->
 
-?>
+<main>
+  <h1>Apples</h1>
+  <p>The apple is the pomaceous fruit of the apple tree.</p>
 
-	</div><!-- #content -->
+  <article>
+    <h2>Red Delicious</h2>
+    <p>
+      These bright red apples are the most common found in many supermarkets.
+    </p>
+    <p>…</p>
+    <p>…</p>
+  </article>
 
-	<?php do_action( 'donovan_before_footer' ); ?>
+  <article>
+    <h2>Granny Smith</h2>
+    <p>These juicy, green apples make a great filling for apple pies.</p>
+    <p>…</p>
+    <p>…</p>
+  </article>
+</main>
 
-	<div id="footer" class="footer-wrap">
-
-		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
-
-			<?php do_action( 'donovan_footer_menu' ); ?>
-
-			<div id="footer-line" class="site-info">
-				<?php do_action( 'donovan_footer_text' ); ?>
-				<?php donovan_credit_link(); ?>
-			</div><!-- .site-info -->
-
-		</footer><!-- #colophon -->
-
-	</div>
-
-</div><!-- #page -->
-
-<?php wp_footer(); ?>
-
-</body>
-</html>
+<!-- other content -->
